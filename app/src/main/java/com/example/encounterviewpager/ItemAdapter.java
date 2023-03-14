@@ -32,7 +32,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
             return new ViewHolder(binding);
         } else {
             FakeItemBinding binding = FakeItemBinding.inflate(layoutInflater, parent, false);
-            return new ViewHolder(binding);
+            return new ViewHolder(binding\);
         }
     }
 
